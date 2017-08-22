@@ -3,7 +3,7 @@ class SavegamesController < ApplicationController
 
   # GET /savegames
   def index
-    @savegames = Savegame.all
+    @savegames = Savegame.all.order(created_at: :desc)
 
     render json: @savegames
   end
