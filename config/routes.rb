@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :rankings
   resources :fields
   resources :savegames do
     resources :fields, module: 'savegames',only: [:index,:create]

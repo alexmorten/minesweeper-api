@@ -61,3 +61,6 @@ Field.create(savegame:save2,x:1,y:4,is_mine:false,used:false,marked:false)
 Field.create(savegame:save2,x:2,y:4,is_mine:true,used:false,marked:false)
 Field.create(savegame:save2,x:3,y:4,is_mine:false,used:false,marked:false)
 Field.create(savegame:save2,x:4,y:4,is_mine:false,used:false,marked:false)
+
+Ranking.create(score:11,name:"bla")
+Ranking.create(score:12,name:"blup")
