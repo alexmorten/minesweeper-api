@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  savegame: one
+  is_mine: false
+  marked: false
+  used: false
+  x: 1
+  'y': 1
+
+two:
+  savegame: two
+  is_mine: false
+  marked: false
+  used: false
+  x: 1
+  'y': 1

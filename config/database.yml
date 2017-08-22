@@ -1,0 +1,16 @@
+development:
+  adapter: postgresql
+  database: minesweeper_development
+  pool: 10
+  timeout: 5000
+test:
+  adapter: postgresql
+  database: minesweeper_test
+  pool: 5
+  timeout: 5000
+
+production:
+  adapter: postgresql
+  database: minesweeper_production
+  pool: 10
+  timeout: 5000
